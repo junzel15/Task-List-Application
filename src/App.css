@@ -1,0 +1,47 @@
+#todo-app {
+  border: 1px solid #c7c7c7;
+  border-radius: 0.7rem;
+  min-height: 500px;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+}
+
+#todo-app form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 2rem 0;
+}
+
+#todo-app form input[type="text"] {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #c7c7c7;
+}
+
+#todo-app form input[type="submit"] {
+  border: 0;
+  border-radius: 0.5rem;
+  background-color: teal;
+  color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+#todo-app .links {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+#todo-app .links a {
+  text-decoration: none;
+  color: teal;
+  transition: 0.2s;
+}
+
+#todo-app .links a:hover {
+  color: rgb(0, 212, 212);
+}
